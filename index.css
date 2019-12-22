@@ -39,6 +39,9 @@ p{
 	padding-bottom: 20px;
 	color: #FFF;
 }
+.heroImage{
+	
+}
 .shortCopy{
 	display: block;
 	margin-left: auto;
@@ -61,6 +64,22 @@ p{
 	overflow:hidden;
 }
 
+/* column container */
+.oneColumn {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+.imageColumn{
+	float: left;
+	position: relative;
+	padding: 0 0 1em 0;
+	overflow: hidden;
+	text-align: center;
+}
+	
 /* column container */
 .twoColumn {
 	clear:both;
