@@ -1,1 +1,7 @@
 body { background-color: #8699a7; }
+h1 { text-align: center;}
+.youtube {  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
