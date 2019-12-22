@@ -6,6 +6,7 @@ body {
 	padding:0;
 	border:0;			/* This removes the border around the viewport in old versions of IE */
 	width:100%;
+	height:100%;
 }
 
 h1 { 
@@ -39,8 +40,26 @@ p{
 	padding-bottom: 20px;
 	color: #FFF;
 }
+
+html{
+	display:flex;
+}
+.FAQ{
+	background-color:#3c596e;
+	height: 500px;
+	display:block;
+	width:100%;
+}
 .heroImage{
-	
+	background-image: url("img/banner.PNG");
+
+	/* Set a specific height */
+	height: 905px;
+
+	/* Position and center the image to scale nicely on all screens */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .shortCopy{
 	display: block;
@@ -65,25 +84,9 @@ p{
 }
 
 /* column container */
-.oneColumn {
-	position:relative;	/* This fixes the IE7 overflow hidden bug */
-	clear:both;
-	float:left;
-	width:100%;			/* width of whole page */
-	overflow:hidden;		/* This chops off any overhanging divs */
-}
-.imageColumn{
-	float: left;
-	position: relative;
-	padding: 0 0 1em 0;
-	overflow: hidden;
-	text-align: center;
-}
-	
-/* column container */
 .twoColumn {
 	clear:both;
-	float:left;
+	/*float:left;*/
 	width:100%;			/* width of whole page */
 	overflow:hidden;		/* This chops off any overhanging divs */
 }
@@ -102,15 +105,16 @@ p{
 	overflow:hidden;
 }
 .colA{
-	width:46%;			/* left column content width (column width minus left and right padding) */
-	left:52%;			/* right column width plus left column left padding */
+	left: 65%;
+	width: 620px;
 }
 .colB{
-	width:46%;			/* right column content width (column width minus left and right padding) */
-	left:56%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+	width: 620px;
+	left: 65%;		/* (right column width) plus (left column left and right padding) plus (right column left padding) */
 }
 
 .footer
 {
-	background-color: #3c596e; 
+	background-color: #3c596e;
+	display:grid;
 }
