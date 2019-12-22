@@ -20,6 +20,18 @@ h2{
 	color: #FFF;
 }
 
+p{
+	text-align: center; 
+	font-family: 'Lato', sans-serif; 
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	color: #FFF;
+}
+.shortCopy{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 .youtube {  
 	display: block;
 	margin-left: auto;
