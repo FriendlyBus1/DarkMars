@@ -53,6 +53,9 @@ p{
 	padding-top: 20px; 
 	padding-bottom: 20px;
 }
+.screenShot {
+	overflow:hidden;
+}
 
 /* column container */
 .twoColumn {
