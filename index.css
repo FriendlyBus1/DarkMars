@@ -1,23 +1,35 @@
 
 
-body { background-color: #8699a7; }
+body { 
+background-color: #8699a7; 
+}
 
 h1 { 
-text-align: center; 
-font-family: 'Lato', sans-serif; 
-padding-top: 20px; 
-padding-bottom: 20px;
-color: #FFF;
-  }
+	text-align: center; 
+	font-family: 'Lato', sans-serif; 
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	color: #FFF;
+}
+
+h2{
+	text-align: center; 
+	font-family: 'Lato', sans-serif; 
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	color: #FFF;
+}
 
 .youtube {  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-  
-  .storeIcon {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-  }
+}
+  
+.storeIcon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px; 
+	padding-bottom: 20px;
+}
