@@ -46,11 +46,20 @@ h2{
 	float:left;
 	width:100%;
 	position:relative;
+	right:50%;			/* right column width */
 }
-.col1,
-.col2{
+.colA,
+.colB{
 	float:left;
 	position:relative;
 	padding:0 0 1em 0;
 	overflow:hidden;
+}
+.colA{
+	width:46%;			/* left column content width (column width minus left and right padding) */
+	left:52%;			/* right column width plus left column left padding */
+}
+.colB{
+	width:46%;			/* right column content width (column width minus left and right padding) */
+	left:56%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
 }
