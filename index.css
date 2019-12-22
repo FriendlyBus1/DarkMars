@@ -83,3 +83,8 @@ p{
 	width:46%;			/* right column content width (column width minus left and right padding) */
 	left:56%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
 }
+
+.footer
+{
+	background-color: #3c596e; 
+}
