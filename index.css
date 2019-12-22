@@ -2,7 +2,12 @@
 
 body { background-color: #8699a7; }
 
-h1 { text-align: center; font-family: 'Lato', sans-serif; margin-top:10px; margin-bottom:10px;}
+h1 { text-align: center; 
+font-family: 'Lato', sans-serif; 
+margin-top:10px; 
+margin-bottom:10px;
+color: #FFF;
+}
 
 .youtube {  
   display: block;
